@@ -1,0 +1,18 @@
+from palindrome import is_palindrom
+
+def test_for_palindrome_return_true():
+	assert is_palindrome('dad') == True
+	assert is_palindrome('12121') == True
+	assert is_palindrome('neveroddoreven')
+
+
+
+def test_for_palindrom_returns_fause():
+	assert is_palindrome('ball') == True
+	assert is_palindrome('10111') == True
+
+
+
+def test_for_number_return_false():
+	assert is_palindrome(10) == false
+	assert is_palindrome(10.5) ==True

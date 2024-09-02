@@ -1,0 +1,22 @@
+pass_mark = 45
+pass_student =0
+fail_student = 0
+total_number = 0
+count =0
+
+for scores in range (15):
+	scores = int(input(Enter scores of student))
+		if pass_mark >= pass_mark:
+			total_number +=1
+		if pass_mark < pass_mark:
+			total_number+=1
+
+	count +=1
+
+print(number of pass student is: score)
+
+
+
+
+  
+ 

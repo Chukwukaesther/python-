@@ -1,0 +1,26 @@
+def_init_(else,first_Name,Last_Name,phone,Sales,rate):
+    self._firs_tName = first_name
+    self._last_Name = last_Name
+    self._phone = phone
+    self.sales = sales
+    self.rate = rate
+
+    @property
+    def first_name():
+        return self._first_name
+
+
+
+    @Property
+    def sales(self):
+    return self.sales
+
+
+    @sales.setter
+
+
+    def sales(self, value):
+        if value < Decimal('0.00'):
+
+
+

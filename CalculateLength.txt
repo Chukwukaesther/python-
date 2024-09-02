@@ -1,0 +1,6 @@
+def calculate_length(input):
+	return len(input)
+
+	user_input = int(input("Enter name: )
+	result = callculate_length(user_input)
+	print(resilt)
